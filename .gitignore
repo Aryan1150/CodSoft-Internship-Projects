@@ -1,0 +1,6 @@
+dataset/
+models/
+*.pkl
+*.joblib
+*.csv
+__pycache__/
