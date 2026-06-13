@@ -43,24 +43,19 @@ spam-sms-detection/
 
 ## ⚙️ How to Run
 
-```bash
+
 pip install -r requirements.txt
 python src/train.py
 streamlit run app.py
-📊 Model Used
-Multinomial Naive Bayes
-TF-IDF Vectorizer
-📈 Output
-Input SMS → Prediction (Spam / Ham)
-Real-time classification via web UI
-⚠️ Note
 
-This project is for educational and internship purposes only.
 
-👨‍💻 Developer
+---
 
-Aryan Mali
+## 📊 Model Used
+- Multinomial Naive Bayes  
+- TF-IDF Vectorizer  
 
-⭐ Thank You
+---
 
-If you like this project, give it a ⭐ on GitHub!
+## 👨‍💻 Developer
+**Aryan Mali**
