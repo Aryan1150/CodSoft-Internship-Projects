@@ -38,9 +38,15 @@ spam-sms-detection/
 pip install -r requirements.txt
 python src/train.py
 streamlit run app.py
-📊 Model Used
-Multinomial Naive Bayes
-TF-IDF Vectorizer
-👨‍💻 Developer
 
-Aryan Mali
+---
+
+## 📊 Model Used
+- 🧠 Multinomial Naive Bayes  
+- 🔤 TF-IDF Vectorizer  
+
+---
+
+## 👨‍💻 Developer
+
+### **Aryan Mali**
