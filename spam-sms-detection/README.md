@@ -1,5 +1,4 @@
 # 📩 Spam SMS Detection System
-Made by- Aryan Mali
 
 An AI/ML-based project that classifies SMS messages as **Spam or Ham (Not Spam)** using Natural Language Processing and Machine Learning.
 
@@ -23,3 +22,25 @@ An AI/ML-based project that classifies SMS messages as **Spam or Ham (Not Spam)*
 ---
 
 ## 📂 Project Structure
+spam-sms-detection/
+│── dataset/
+│── models/
+│── src/
+│── app.py
+│── requirements.txt
+
+
+---
+
+## ⚙️ How to Run
+
+```bash
+pip install -r requirements.txt
+python src/train.py
+streamlit run app.py
+📊 Model Used
+Multinomial Naive Bayes
+TF-IDF Vectorizer
+👨‍💻 Developer
+
+Aryan Mali
