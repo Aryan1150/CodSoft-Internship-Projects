@@ -4,24 +4,33 @@ An AI/ML-based project that classifies SMS messages as **Spam or Ham (Not Spam)*
 
 ---
 
+## 🎯 Internship Project
+This project was developed as part of the **CodSoft Internship Program**.
+
+---
+
 ## 🚀 Features
-- Text preprocessing using TF-IDF
-- Machine Learning model for classification
-- Real-time SMS prediction via Streamlit UI
-- Clean and interactive web interface
+- SMS text classification (Spam / Ham)
+- NLP-based text preprocessing
+- TF-IDF feature extraction
+- Machine Learning model training
+- Real-time Streamlit web app
+- Clean and interactive UI
 
 ---
 
 ## 🧠 Tech Stack
-- Python
-- Pandas
-- Scikit-learn
-- NLP (TF-IDF Vectorization)
-- Streamlit
+- Python 🐍
+- Pandas 📊
+- NumPy 🔢
+- Scikit-learn 🤖
+- Streamlit 🌐
+- NLP (TF-IDF Vectorizer)
 
 ---
 
 ## 📂 Project Structure
+
 spam-sms-detection/
 │── dataset/
 │── models/
@@ -38,15 +47,20 @@ spam-sms-detection/
 pip install -r requirements.txt
 python src/train.py
 streamlit run app.py
+📊 Model Used
+Multinomial Naive Bayes
+TF-IDF Vectorizer
+📈 Output
+Input SMS → Prediction (Spam / Ham)
+Real-time classification via web UI
+⚠️ Note
 
----
+This project is for educational and internship purposes only.
 
-## 📊 Model Used
-- 🧠 Multinomial Naive Bayes  
-- 🔤 TF-IDF Vectorizer  
+👨‍💻 Developer
 
----
+Aryan Mali
 
-## 👨‍💻 Developer
+⭐ Thank You
 
-### **Aryan Mali**
+If you like this project, give it a ⭐ on GitHub!
